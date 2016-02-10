@@ -1,0 +1,20 @@
+<ion-view title="My Lockbox">
+    <ion-content overflow-scroll="true" padding="true" class="has-header">
+        <div class="button-bar">
+            <a ui-sref="menu.lockboxInformation" class="button  button-block button-small">Receive Lockbox</a>
+            <button class="button button-positive button-block button-small">My Lockbox</button>
+        </div>
+        <ion-list>
+            <ion-item class="item-divider">105 King Street Calgary, Alberta T3</ion-item>
+            <label class="item item-input">
+                <span class="input-label">Serial</span>
+                <input type="text" placeholder="12345678-9012">
+            </label>
+            <label class="item item-input">
+                <span class="input-label">Code</span>
+                <input type="text" placeholder="1234">
+            </label>
+        </ion-list>
+        <a ui-sref="returnLockbox" class="button button-positive button-block button-small">Return Lockbox</a>
+    </ion-content>
+</ion-view>

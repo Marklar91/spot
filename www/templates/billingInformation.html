@@ -1,0 +1,23 @@
+<ion-view title="Billing Information">
+    <ion-content overflow-scroll="true" padding="true" scroll="false" class="has-header has-footer">
+        <form class="list">
+            <h2>Spot.</h2>
+            <ion-list>
+                <label class="item item-input">
+                    <span class="input-label">CC#</span>
+                    <input type="number" placeholder="1234 5678 9012 3456">
+                </label>
+                <label class="item item-input">
+                    <span class="input-label">Expiry</span>
+                    <input type="number" placeholder="mm/yyyy">
+                </label>
+                <label class="item item-input">
+                    <span class="input-label">CVV</span>
+                    <input type="number" placeholder="000">
+                </label>
+            </ion-list>
+            <button class="button button-stable button-block button-small">Add New Card</button>
+            <a ui-sref="menu.home" class="button button-energized button-block ">Finish Registration</a>
+        </form>
+    </ion-content>
+</ion-view>

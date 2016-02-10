@@ -1,0 +1,55 @@
+<ion-view title="New Pup">
+    <ion-content overflow-scroll="true" padding="true" class="has-header">
+        <form class="list">
+            <label class="item item-input">
+                <span class="input-label">Upload Photo</span><textarea placeholder=""> </textarea>
+            </label>
+        </form>
+        <div class="spacer" style="width: 300px; height: 100px;"></div>
+        <form class="list"></form>
+        <form class="list">
+            <ion-item class="item-divider">Pup Information</ion-item>
+            <label class="item item-input">
+                <span class="input-label">Name</span>
+                <input type="text" placeholder="Spike">
+            </label>
+            <label class="item item-input">
+                <span class="input-label">Breed</span>
+                <input type="text" placeholder="Golden Retriever">
+            </label>
+            <label class="item item-input">
+                <span class="input-label">Age</span>
+                <input type="number" placeholder="9">
+            </label>
+            <ion-checkbox>Same Owner?</ion-checkbox>
+            <ion-item class="item-divider">Notes</ion-item>
+            <label class="item item-input">
+                <span class="input-label">Behavioral</span>
+                <input type="text" placeholder="Field not required">
+            </label>
+            <label class="item item-input">
+                <span class="input-label">Health</span>
+                <input type="text" placeholder="Field not required">
+            </label>
+            <ion-item class="item-divider">Vet Information</ion-item>
+            <label class="item item-input">
+                <span class="input-label">Doctor</span>
+                <input type="text" placeholder="Field not required">
+            </label>
+            <label class="item item-input">
+                <span class="input-label">Hospital</span>
+                <input type="text" placeholder="Field not required">
+            </label>
+            <label class="item item-input">
+                <span class="input-label">Phone</span>
+                <input type="number" placeholder="Field not required">
+            </label>
+            <label class="item item-input">
+                <span class="input-label">Address</span>
+                <input type="text" placeholder="Field not required">
+            </label>
+            <a ui-sref="menu.pupProfile" class="button button-stable button-block ">Save Profile</a>
+            <button class="button button-stable button-block ">Delete Profile</button>
+        </form>
+    </ion-content>
+</ion-view>

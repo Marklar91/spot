@@ -1,0 +1,35 @@
+<ion-view title="Walker Profile">
+    <ion-content overflow-scroll="true" padding="true" class="has-header has-footer">
+        <div style="line-height: 250px; border: 1px solid rgb(238, 238, 238); border-radius: 3px; text-align: center; background-color: rgb(255, 255, 255);">
+            <i class="icon ion-image" style="font-size: 64px; color: rgb(136, 136, 136); vertical-align: middle;"></i>
+        </div>
+        <button class="button button-stable button-block button-small">Edit Walker Profile Video</button>
+        <form class="list">
+            <ion-list></ion-list>
+            <label class="item item-input">
+                <span class="input-label">John Smith</span><textarea placeholder=""> </textarea>
+            </label>
+            <label class="item item-input">
+                <span class="input-label">(403) 854-3256</span><textarea placeholder=""> </textarea>
+            </label>
+            <label class="item item-input">
+                <span class="input-label">jsmith@email.com</span><textarea placeholder=""> </textarea>
+            </label>
+            <label class="item item-input">
+                <span class="input-label">826 Cantebury Way S.E. T2T-1P4</span><textarea placeholder=""> </textarea>
+            </label>
+            <div class="spacer" style="width: 283px; height: 11px;"></div>
+            <label class="item item-input">
+                <span class="input-label">Bio:</span>
+                <input type="text" placeholder="Hi my name is John a...">
+            </label>
+            <div class="spacer" style="width: 283px; height: 11px;"></div>
+        </form>
+        <div class="button-bar">
+            <a ui-sref="walkerMenu.account" class="button button-positive button-block button-small">Account</a>
+            <a ui-sref="walkerMenu.history" class="button button-positive button-block button-small">History</a>
+        </div>
+        <form class="list"></form>
+        <div class="button-bar"></div>
+    </ion-content>
+</ion-view>

@@ -1,0 +1,31 @@
+<ion-view title="Profile">
+    <ion-content overflow-scroll="true" padding="true" scroll="false" class="has-header has-footer">
+        <form class="list">
+            <ion-list></ion-list>
+            <label class="item item-input">
+                <span class="input-label">Name</span>
+                <input type="text" placeholder="John Smith">
+            </label>
+            <label class="item item-input">
+                <span class="input-label">Phone</span>
+                <input type="text" placeholder="1 (403) 243-1357">
+            </label>
+            <label class="item item-input">
+                <span class="input-label">Email</span>
+                <input type="text" placeholder="jsmith@email.com">
+            </label>
+            <div class="spacer" style="width: 300px; height: 19px;"></div>
+            <label class="item item-input">
+                <span class="input-label">Address</span>
+                <input type="text" placeholder="826 Cantebury Way S.E. T2T">
+            </label>
+            <a ui-sref="billingInformation" class="button button-stable button-block button-small">New Credit Card</a>
+            <button class="button button-stable button-block ">Account</button>
+            <button class="button button-stable button-block ">Lock Box Information</button>
+        </form>
+        <div class="button-bar">
+            <a ui-sref="menu.pupProfile" class="button  button-block ">Pup Profiles</a>
+            <button class="button button-stable button-block ">Walk History</button>
+        </div>
+    </ion-content>
+</ion-view>
